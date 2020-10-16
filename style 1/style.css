@@ -100,8 +100,34 @@ font-family: 'Sacramento', cursive;
 }
 
 .about #imgBx{
-    background: url(./images/logo.png);
+    background: url(./images/kid1.jpg);
     width: 50%;
     background-size: cover;
     background-position: center;
+}
+
+
+.services{
+    background-color: lightsteelblue;
+    padding: 100px;
+    text-align: center;
+}
+
+#container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+#serviceBx{
+    position: relative;
+    background: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
