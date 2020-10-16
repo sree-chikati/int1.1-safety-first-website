@@ -100,7 +100,7 @@ font-family: 'Sacramento', cursive;
 }
 
 .about #imgBx{
-    background: url();
+    background: url(./images/logo.png);
     width: 50%;
     background-size: cover;
     background-position: center;
