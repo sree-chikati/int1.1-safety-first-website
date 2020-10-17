@@ -81,7 +81,7 @@ font-family: 'Sacramento', cursive;
 #content p{
     color: black;
     font-size: 18px;
-    
+    background: url(./images/toggle.png);
 }
 
 #content img{
@@ -112,15 +112,6 @@ font-family: 'Sacramento', cursive;
     letter-spacing: 1px;
 }
 
-
-.banner header .toggle{
-    position: relative;
-    width: 36px;
-    height: 28px;
-    background: url(./images/toggle.png);
-    background-size: cover;
-    cursor: pointer;
-}
 
 .about{
     position: relative;
