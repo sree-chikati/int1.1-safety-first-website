@@ -72,6 +72,11 @@ font-family: 'Sacramento', cursive;
     align-items: center;
 }
 
+#intro{
+    background: url(./images/paper.jpg);
+    padding: 1rem;
+    margin: 3rem;
+}
 
 #content h2{
     color: black;
@@ -81,7 +86,7 @@ font-family: 'Sacramento', cursive;
 #content p{
     color: black;
     font-size: 18px;
-    background: url(./images/toggle.png);
+    
 }
 
 #content img{
