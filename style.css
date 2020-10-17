@@ -64,10 +64,14 @@ font-family: 'Sacramento', cursive;
 
 #content{
     position: relative;
-    max-width: 750px;
+    max-width: 80%;
     text-align: center;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 
 #content h2{
     color: black;
@@ -77,6 +81,12 @@ font-family: 'Sacramento', cursive;
 #content p{
     color: black;
     font-size: 18px;
+    
+}
+
+#content img{
+    padding: 3rem;
+    margin: 2rem;
 }
 
 .banner header{
