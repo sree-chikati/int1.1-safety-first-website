@@ -10,3 +10,5 @@ tl.from(logo, 1.2, {opcaity: 0, x: 30}, {opcaity: 1, x: 0},);
 tl.from(navList, 1.2, {opcaity: 0, x: 30}, {opcaity: 1, x: 0},);
 tl.from(intro, 1.2, {opcaity: 0, xPercent: 50}, {opcaity: 1, x: 0})
 tl.from(char1, {yPercent: 118, stagger: 0.1, duration: 0.8, ease:"back"})
+
+

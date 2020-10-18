@@ -165,3 +165,79 @@ body{
         background-position: center;
     }
 
+    #about h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .heading{
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    
+    #text{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+#story{
+    background-color: lightsteelblue;
+    padding: 3rem;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+    #story ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 400px;
+        margin: 3rem;
+        background-color: #eee;
+        box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card p {
+        margin: 1rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .card a{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        overflow: hidden;
+        background: linear-gradient(90deg, rgb(248, 106, 106),  rgb(160, 241, 252) );
+    }
+
+    .card a:hover{
+        color: black;
+    }
+
