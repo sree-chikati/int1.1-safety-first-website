@@ -18,11 +18,33 @@ font-family: 'Sacramento', cursive;
     position: relative;
     width: 100%;
     height: 100vh;
-    background: whitesmoke;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+    .banner header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100000;
+    }
+
+    .banner header .logo{
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
 
     ul{
         flex: 1;
@@ -72,47 +94,21 @@ font-family: 'Sacramento', cursive;
     align-items: center;
 }
 
-#intro{
-    position: relative;
-}
+    #intro{
+        position: relative;
+    }
 
+    #intro img{
+        padding: 0.5rem 3rem;
+        overflow: hidden;
+    }
 
+    #content p{
+        color: black;
+        font-size: 18px;
+        padding: 3rem;
+    }
 
-#intro img{
-    padding: 0.5rem 3rem;
-    overflow: hidden;
-}
-
-#content p{
-    color: black;
-    font-size: 18px;
-    padding: 3rem;
-}
-
-
-
-.banner header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100000;
-}
-
-.banner header .logo{
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
 
 
 .about{
@@ -126,6 +122,23 @@ font-family: 'Sacramento', cursive;
     padding: 100px;
     width: 50%;
 }
+
+#content h2{
+    font-size: 32px;
+}
+
+#safe{
+    text-transform: uppercase;
+    color: rgb(160, 192, 252);
+    font-size: 50px;
+}
+
+#aware{
+    text-transform: uppercase;
+    color: lightcoral;
+    font-size: 50px;
+}
+
 
 .heading{
     color: white;
