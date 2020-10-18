@@ -11,8 +11,7 @@
                 <img src = "./images/logo.png" width="50" height="50" id ="logo">
                 <h2>SAFETY FIRST</h2>
                 <ul id = "nav-list">
-                    <li><a href ="#">Home</a></li>
-                    <li><a href ="#">About</a></li>
+                    <li><a href ="#about">About</a></li>
                     <li><a href ="#">Stories</a></li>
                     <li><a href ="#">App</a></li>
                 </ul>
@@ -32,10 +31,10 @@
 
         <!--  About  -->
         
-        <section class="parallax">
-          
-        </section>
-        <!--  About
+        <section class="parallax" data-parallax="scroll" data-z-index="1"
+        data-image-src="./images/paper.jpg"></section>
+        <!--  About -->
+        <section id = "about">
             <div id = "contentBx">
                 <h2 class = "heading">About Us</h2>
                 <p id = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -53,7 +52,7 @@
             <div id="imgBx"></div>
         </section>
      
-          -->
+    
          
      
 
@@ -95,7 +94,13 @@
         <!--  Testimonials  -->
 
         <!--  Contact  -->
+
+    <!-- SCRIPTS FOR GSAP ANIMATIONS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- SCRIPT FOR PARALLAX SCROLLING -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js-1.5.0/parallax.min.js"></script>
+    <!-- REGUALR SCRIPT FILE-->
     <script src="./scripts.js"></script>
     </body>
 </html>
