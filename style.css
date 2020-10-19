@@ -211,6 +211,7 @@ body{
 
     .card img {
         width: 100%;
+        background-color: white;
     }
 
     .card p {
