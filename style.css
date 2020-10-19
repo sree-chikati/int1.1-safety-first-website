@@ -228,7 +228,7 @@ body{
         margin: 3rem;
         background-color: #eee;
         box-shadow: 0 0 22px rgb(248, 169, 155);
-       
+        
     }
 
     .card img {
@@ -239,8 +239,6 @@ body{
     .card button{
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 12px 36px;
         margin: 10px 0;
         text-decoration: none;
@@ -251,6 +249,9 @@ body{
         overflow: hidden;
         background: linear-gradient(90deg, rgb(248, 106, 106),  rgb(160, 241, 252) );
         border: none;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     .card a{
