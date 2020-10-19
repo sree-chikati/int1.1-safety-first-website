@@ -33,6 +33,8 @@ I hope to create a story based gaming app for kids between 2-year-olds and 5-yea
  2. Once downloaded, open **index.html** in preffered site
  
  ## Website
+ This is the [website](https://sree-chikati.github.io/int1.1-safety-first-website/):
+ ![Landing Page](https://github.com/sree-chikati/int1.1-safety-first-website/blob/main/images/intro-page.png)
  
 
 
